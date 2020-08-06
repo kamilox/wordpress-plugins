@@ -1,0 +1,194 @@
+.col-1{
+    width: calc((1 * 100%) / 12 );
+    display: inline-block;
+}
+.col-2{
+    width: calc((2 * 100%) / 12 );
+    display: inline-block;
+}
+.col-3{
+    width: calc((3 * 100%) / 12 );
+    display: inline-block;
+}
+.col-4{
+    width: calc((4 * 100%) / 12 );
+    display: inline-block;
+}
+.col-5{
+    width: calc((5 * 100%) / 12 );
+    display: inline-block;
+}
+.col-6{
+    width: calc((6 * 100%) / 12 );
+    display: inline-block;
+}
+.col-7{
+    width: calc((7 * 100%) / 12 );
+    display: inline-block;
+}
+.col-8{
+    width: calc((8 * 100%) / 12 );
+    display: inline-block;
+}
+.col-9{
+    width: calc((9 * 100%) / 12 );
+    display: inline-block;
+}
+.col-10{
+    width: calc((10 * 100%) / 12 );
+    display: inline-block;
+}
+.col-11{
+    width: calc((11 * 100%) / 12 );
+    display: inline-block;
+}
+.col-12{
+    width: calc((12 * 100%) / 12 );
+    display: inline-block;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery{
+    width: 100%;
+}
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    border: solid 1px #f0f0f0;
+    border-radius: 8px;
+    position: relative;
+    padding-top: 30px;
+}
+.gallery-item {
+    width: calc((100% - 30px)/2);
+    text-align: center;
+    border: solid 1px #f0f0f0;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    margin: 5px;
+}
+.image-container {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.image-container img{
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+.button-container{
+    margin-top: 20px;
+}
+.close-div{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border: solid 1px #f0f0f0;
+    border-radius: 5px;
+    padding: 0 4px;
+    background: #f1f1f1;
+    color: #333333;
+}
+.close-div:hover{
+    background: #333333;
+    color: #f0f0f0;
+    transition: background 0.5s, color 0.5s ;
+}
+
+.error{
+    color: #333;
+    font-size: 18px;
+}
+.new-row{
+    padding: 20px;
+}
+
+.custom-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 40%;
+}
+.custom-fields-input {
+    padding-bottom: 5px;
+}
+.column-ID{
+    width: 50px;
+}
+/*detail image in custom permalink*/
+.container{
+    position: relative;
+    max-width: 1140px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.navigator {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.meta-nav, 
+.btn-nav{
+    margin: 0 5px !important;
+    border-radius: 5px !important;
+    background: #007ac3 !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    padding: 15px 20px;
+    text-decoration: none;
+    height: 50px;
+}
+#btn-contact-us{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.gallery-patient-terms {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+.gallery-title {
+    text-align: center;
+    text-transform: capitalize;
+}
+.container-gallery {
+    border: solid 1px #333;
+    border-radius: 8px;
+    padding: 20px;
+}
+.gallery-image {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+.gallery-image > img{
+    width: 450px;
+    max-width: 450px;
+    height: auto;
+}
+.gallery-carusel {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    text-align: -webkit-center;
+    padding: 20px 0;
+    
+}
+.gallery-carusel. img {
+    width: 180px !important;
+    max-width: 180px !important;
+    height: auto !important;
+    max-height: 180px !important;
+}
